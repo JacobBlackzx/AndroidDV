@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editNota1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editNota3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -47,10 +47,10 @@
         android:text="Nota - 3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/editNota2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editNota4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -61,10 +61,10 @@
         android:text="Nota - 4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/editNota3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/textResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -76,7 +76,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/editNota4" />
 
     <Button
         android:id="@+id/button"
@@ -85,13 +85,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="75dp"
         android:layout_marginEnd="8dp"
+        android:onClick="calcular"
         android:text="Verificar Resultado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName5" />
+        app:layout_constraintTop_toTopOf="@+id/textResultado" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editNota2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -102,6 +103,6 @@
         android:text="Nota - 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editNota1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
