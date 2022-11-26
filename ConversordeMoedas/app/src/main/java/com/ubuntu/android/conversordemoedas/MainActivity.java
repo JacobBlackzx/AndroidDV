@@ -33,13 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         double totalReais = valorDolar * quantDolar;
 
-
-        /*
-        DecimalFormat decimal = new DecimalFormat(Pattern: "0.00");
+        DecimalFormat decimal = new DecimalFormat("0.00");
         String valorFormatado = decimal.format(totalReais);
-        */
 
-        txtResultado.setText("R$: " + totalReais);
+        txtResultado.setText("R$: " + valorFormatado);
     }
 
 
