@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <EditText
-            android:id="@+id/editAlcool"
+            android:id="@+id/editPrecoAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <EditText
-            android:id="@+id/editGasolina"
+            android:id="@+id/editPrecoGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -74,6 +74,7 @@
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:onClick="calcularPreco"
         android:text="CALCULAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
